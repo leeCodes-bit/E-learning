@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+    background: url("https://res.cloudinary.com/dzfz6iwon/image/upload/v1587391749/shutterstock_695770828-900x506_ijc9iw.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+    height: 650px; 
+    background-position: center;
+}
+button{
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(124, 120, 120);
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 250px 30px;
+    cursor: pointer;
+}
