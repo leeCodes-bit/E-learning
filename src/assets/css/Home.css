@@ -1,12 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-body{
+.homepage{
     background: url("https://res.cloudinary.com/dzfz6iwon/image/upload/v1587391749/shutterstock_695770828-900x506_ijc9iw.jpg");
     background-repeat: no-repeat;
     background-size: cover;  
-    height: 650px; 
     background-position: center;
 }
+
+.container{
+    background-color: rgba(0, 0, 0, 0.63);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 button{
     border-radius: 10px;
     padding: 20px;
