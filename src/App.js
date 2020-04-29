@@ -1,16 +1,20 @@
 import React from 'react';
-import Header from './components/Header';
 import Home from './components/Home';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import Student from './components/Student';
 import Tutor from './components/Tutor'
 import './assets/css/style.css';
 import './App.css';
+import './assets/css/Home.css'
+import './assets/css/Student.css';
+
+
 
 function App() {
+
+
   return (
     <div className="App">
-    <Header />
     <Router>
     <Switch>
       <Route exact path= "/">

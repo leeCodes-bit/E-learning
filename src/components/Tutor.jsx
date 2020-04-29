@@ -1,12 +1,16 @@
 import React from 'react'
 
-function Tutor(){
+class Tutor extends React.Component{
+  component(props){
+
+  }
+  render(){
     return(
-        <div>
-            <h1>Welcome to Tutor page</h1>
-        </div>
+      <div>
+        <h1>Welcome to tutors page</h1>
+      </div>
     )
+  }
 }
 
-
-export default Tutor
+export default Tutor;
